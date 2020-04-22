@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  font-family: arial;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 90%;
+  text-align: center;
+}
+
+.startingLogo {
+  margin-top: 20vh;
+  margin-bottom: 5vh;
+  margin-left: 5vw;
+  width: 80%;
+}
+
+.mainButton {
+  margin-bottom: 1em;
+  display: inline-block;
+  width: 50%;
+  padding: 1em;
+  text-align: center;
+  border-radius: 2em;
+  border: .1em solid #00975f;
+  box-shadow: .1em .1em 1em grey;
+  font-weight: bolder;
+  text-decoration: none;
+  color: white;
+  background: #84ffd0;
+  outline: none;
+}
+
+.wave-top {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 50vh;
+  width: 100%;
+  z-index: -1
+}
+
+.wave-bottom {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 50vh;
+  width: 100%;
+  z-index: -1;
+}
+
+.title {
+  margin-top: 20vh;
+  color: #00975f;
+}
+
+.box {
+  margin: 0 auto;
+  width: 75%;
+  margin-bottom: 1em;
+}
+
+.box p {
+  text-align: left;
+  padding-left: 1em;
+  width: 100%;
+}
+
+.or {
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  color: #00975f;
+}
+
+.box input {
+  margin-top: -1em;
+  width: 100%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: center;
+  border-radius: 2em;
+  border: .1em solid #00975f;
+  box-shadow: .1em .1em 1em grey;
+  font-weight: bolder;
+  text-decoration: none;
+  color: black;
+  background: white;
+  outline: none;
+}
+
+.header {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  background: #00975f;
+  border-radius: 2em;
+}
+
+.header h1 {
+  display: inline-block;
+  color: white;
+}
+
+.back {
+  display: block;
+  color: white;
+  text-decoration: none;
+  font-size: 2em;
+  margin-right: 0.5em;
+}
+
+.item {
+  text-align: left;
+  position: relative;
+  margin-bottom: 1em;
+}
+
+.item h2 {
+  font-size: 2em;
+  margin: 0;
+  color: #00975f;
+}
+
+.item p {
+  font-size: 1.5em;
+  color: grey;
+  margin: 0;
+  text-decoration: underline;
+}
+
+.header h2 {
+  color: white;
+  margin: 0;
+  padding-top: .6em;
+}
+
+.header p {
+  font-weight: bolder;
+  text-decoration: underline;
+  color: white;
+  margin: 0;
+  padding-bottom: .6em;
+  padding-top: .6em;
+}
+
+.do {
+  font-size: 4rem;
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: #84ffd0;
+}
+
+.wrapper img {
+  width: 80%;
+}
